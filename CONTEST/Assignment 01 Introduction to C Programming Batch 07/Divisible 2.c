@@ -4,10 +4,8 @@ int main() {
     int N;
     scanf("%d", &N);
     
-    if (N % 3 == 0) {
-        printf("YES\n");
-    } else {
-        printf("NO\n");
+    for (int i = 21; i <= N; i += 21) {
+        printf("%d\n", i);
     }
     
     return 0;
